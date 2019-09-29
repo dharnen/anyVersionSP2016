@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/Navigator/NavigatorWebPart.js",
+      "manifest": "./src/webparts/navigator/NavigatorWebPart.manifest.json",
+      "outputPath": "./dist/navigator-web-part.js"
+    },
+    {
+      "entry": "./lib/webparts/partConfig/PartConfigWebPart.js",
+      "manifest": "./src/webparts/partConfig/PartConfigWebPart.manifest.json",
+      "outputPath": "./dist/part-config-web-part.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "NavigatorWebPartStrings": "webparts/navigator/loc/{locale}.js",
+    "PartConfigWebPartStrings": "webparts/partConfig/loc/{locale}.js"
+  }
+}

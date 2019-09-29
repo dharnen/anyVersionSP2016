@@ -1,0 +1,91 @@
+export interface IERItem {
+    IPT: string;
+    partFunction: string;
+    partNumber: string;
+    partRev: string;
+    partName: string;
+    partType: string;
+    partOrigin: string;
+    partMakeBuy: string;
+    partMakeBuyStatus: string;
+    partDateNeed: Date;
+    PartDateECD: Date;
+    partDateActual: Date;
+    partState: string;
+    partStatus: string;
+    designType: string;
+    designRelDateNeed: Date;
+    designRelECD: Date;
+    designRelDateActual: Date;
+    designConfigReq: boolean;
+    designConfigStatus: string;
+    designState: string;
+    designStatus: string;
+    engineerLeadId: number;
+    engineerAssignedId: number[];
+    buildLeadId: number;
+    buildAssignedId: number[];
+    creationType: string;
+    creationState: string;
+    creationPurpose: string;
+    Order0: number;
+    ID: number;
+    ContentType: string;
+    Modified: Date;
+    Created: Date;
+    AuthorId: number;
+    EditorId: number;
+    Attachments: any;
+}
+
+export interface IEBOMItem {
+    instanceAssyQty: number;
+    instanceState: string;
+    instanceStatus: string;
+    ERIDId: number;
+    parentERIDId: number;
+    creationType: string;
+    creationState: string;
+    creationPurpose: string;
+    totalQty: string;
+    ID: number;
+    ContentType: string;
+    Modified: Date;
+    Created: Date;
+    AuthorId: number;
+    EditorId: number;
+}
+
+export interface IECItem {
+    configDescription: string;
+    configKeyCharacteristics: string;
+    datumPrimaryID: string;
+    datumPrimaryFeature: string;
+    datumPrimaryDescription: string;
+    datumSecondaryID: string;
+    datumSecondaryFeature: string;
+    datumSecondaryDescription: string;
+    datumTertiaryID: string;
+    datumTertiaryFeature: string;
+    datumTertiaryDescription: string;
+    locatingPrimaryFeature: string;
+    locatingPrimaryDescription: string;
+    locatingSecondaryFeature: string;
+    locatingSecondaryDescription: string;
+    locatingTertiaryFeature: string;
+    locatingTertiaryDescription: string;
+    configAsDesigned: string;
+    configAsDelivered: string;
+    configAsInstalled: string;
+    configState: string;
+    configStatus: string;
+    configVersion: number;
+    ERIDId: number;
+    ID: number;
+    ContentType: string;
+    Modified: Date;
+    Created: Date;
+    AuthorId: number;
+    EditorId: number;
+    Attachments: any;
+}

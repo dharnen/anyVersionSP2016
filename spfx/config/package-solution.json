@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Baseline",
+    "id": "277bde7c-0a12-4380-9e53-6abb8e2e97ba",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/Baseline.sppkg"
+  }
+}
